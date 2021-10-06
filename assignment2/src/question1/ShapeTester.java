@@ -41,12 +41,12 @@ public class ShapeTester {
          * area : 4 perimeter : 8
          * rectangle2
          * area : 28 perimeter : 22
-         * The question1.Rectangle has a Purple color
+         * The Rectangle has a Purple color
          * square1
          * area : 9 perimeter : 12
          * square2
          * area : 49 perimeter : 28
-         * The question1.Square has a black color
+         * The Square has a black color
          */
     }
 }

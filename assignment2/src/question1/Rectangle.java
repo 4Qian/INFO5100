@@ -14,7 +14,7 @@ public class Rectangle extends Shape{
         this.height = height;
     }
 
-    public Rectangle(String name, String color, int width, int height) {//???
+    public Rectangle(String name, String color, int width, int height) {
         super(name,color);
         this.width = width;
         this.height = height;
