@@ -7,6 +7,8 @@ class TrafficLight {
     private static ReentrantLock lock;
 
     public TrafficLight() {
+
+        
         this.greenOnRoadA= true;
         this.lock = new ReentrantLock();
     }
