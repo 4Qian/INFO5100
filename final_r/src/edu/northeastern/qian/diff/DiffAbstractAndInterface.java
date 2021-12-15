@@ -3,9 +3,11 @@ package edu.northeastern.qian.diff;
 public class DiffAbstractAndInterface {
     // https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/
     // https://www.guru99.com/interface-vs-abstract-class-java.html
+
     /**
      *  Basically, a class can implement multiple interfaces whereas a class can extend only one abstract class.
-     *  An interface only permits you to state functionality but not to implement it while an abstract class permits you to make functionality that subclasses can implement or override.
+     *  An interface only allows you to state functionality but not to implement it while
+     *  an abstract class allows you to make functionality that subclasses can implement or override.
      *
      * 1. Implementation:
      * Interface cannot provide the implementation of an abstract class.
@@ -35,10 +37,8 @@ public class DiffAbstractAndInterface {
      * Java abstract class can have class members like private, protected.
      *
      * 7.Usage
-     * Interfaces can define the peripheral abilities of a class.
-     * Abstract class can define the identity of a class.
+     * Interfaces can define a class's peripheral abilities.
+     * Abstract class can define a class's identity.
      *
      */
-
-
 }

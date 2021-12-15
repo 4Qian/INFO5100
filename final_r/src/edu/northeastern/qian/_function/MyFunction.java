@@ -1,8 +1,7 @@
 package edu.northeastern.qian._function;
 
-import java.util.ArrayList;
 
-public class Function {
+public class MyFunction {
     public static void main(String[] args) {
         convert("123",  s -> Integer.parseInt(s));
 
