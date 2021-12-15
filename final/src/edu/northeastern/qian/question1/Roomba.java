@@ -9,9 +9,9 @@ public final class Roomba implements iRobot{
     private final int[][] room;
     private final int M;
     private final int N;
-    private int directionIndex;
-    private int x;
-    private int y;
+    private int directionIndex; // the index of current direction in the directionList
+    private int x; // the current location's x coordinate
+    private int y; // the current location's y coordinate
 
     private static final Map<Direction, int[]> directionMappings = Map.of(
             Direction.DOWN, new int[]{1, 0},
@@ -21,7 +21,7 @@ public final class Roomba implements iRobot{
 
     private static final int NUMBER_OF_DIRECTIONS = 4;
     private static final List<Direction> directionList =
-            Arrays.asList(Direction.DOWN, Direction.RIGHT, Direction.UP, Direction.LEFT);
+            Arrays.asList(Direction.DOWN, Direction.RIGHT, Direction.UP, Direction.LEFT); // directions in counter clockwise order
 
     public Roomba(int[][] room) {
         this.room = room;

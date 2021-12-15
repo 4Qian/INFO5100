@@ -12,11 +12,9 @@ public class Main {
         for (String s : strs) {
             char[] chars = s.toCharArray();
             Arrays.sort(chars);
-            String sorted = String.valueOf(chars);
-            if (!map.containsKey(sorted)) {
-                map.put(sorted, new ArrayList<>());
-            }
-            map.get(sorted).add(s);
+            String key = String.valueOf(chars);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(s);
         }
         return new ArrayList<>(map.values());
     }
